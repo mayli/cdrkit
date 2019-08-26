@@ -39,7 +39,7 @@
 #include <inttypes.h>
 #endif
 #ifdef HAVE_ENDIAN_H
-#include <endian.h>
+#include <machine/endian.h>
 #endif
 
 #ifdef HAVE_SYSEXITS_H

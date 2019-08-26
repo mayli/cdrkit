@@ -29,6 +29,11 @@
 #include <stdint.h>
 #include <stdio.h>
 
+#ifdef __cplusplus
+    #define __THROW throw()
+#else
+    #define __THROW
+#endif
 
 /* Structure to save state of computation between the single steps.  */
 struct sha512_ctx
