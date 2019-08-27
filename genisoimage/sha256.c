@@ -24,7 +24,7 @@
 
 /* Written by Ulrich Drepper <drepper@redhat.com>, 2007.  */
 
-#include <endian.h>
+#include <machine/endian.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/types.h>

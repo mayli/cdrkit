@@ -186,9 +186,9 @@ usal_ops_t usal_std_ops = {
 #include "scsi-next.c"
 #else
 
-#define	SCSI_IMPL		/* We found a SCSI implementation for Mac OS X (Darwin-1.4) */
+//#define	SCSI_IMPL		/* We found a SCSI implementation for Mac OS X (Darwin-1.4) */
 
-#include "scsi-mac-iokit.c"
+//#include "scsi-mac-iokit.c"
 
 #endif	/* HAVE_BSD_DEV_SCSIREG_H */
 
